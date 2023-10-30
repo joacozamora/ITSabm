@@ -11,9 +11,22 @@ namespace Entidades
         #region Atributos
         private int DNI;
         private string NombreApellido;
-        private string Fecha_Nac;
+        private DateTime Fecha_Nac;
         private string Email;
         private bool Analitico;
+
+        public int dni
+        {
+            get { return DNI; }
+            set { DNI = value; }
+
+        }
+
+        public string nombreapellido
+        {
+            get { return NombreApellido; }
+            set { }
+        }
         #endregion
 
         #region Constructores
