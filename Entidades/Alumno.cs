@@ -25,8 +25,10 @@ namespace Entidades
         public string nombreapellido
         {
             get { return NombreApellido; }
-            set { }
+            set { NombreApellido = value; }
         }
+
+
         #endregion
 
         #region Constructores
