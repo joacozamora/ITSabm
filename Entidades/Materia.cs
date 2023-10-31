@@ -7,26 +7,57 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Materia
+    public class Materia
     {
         #region Atributos
-        private int Codigo;
-        private string Nombre;
-        private int Año_Cursado;
-        private string Dia_Cursado;
-        private string Nombre_Carrera;
+        private int codigo;
+        private string nombre;
+        private int año_cursado;
+        private string dia_cursado;
+        private string nombre_carrera;
         #endregion
+
+        #region propiedades
+        public int Id
+        {
+            get { return codigo; }
+            set { codigo = value; }
+        }
+
+        public string Nombre
+        {
+            get { return nombre; }
+            set { nombre = value; }
+        }
+        public int Año_Cursado
+        {
+            get { return año_cursado; }
+            set { año_cursado = value; }
+        }
+        public string Dia_cursado
+        {
+            get { return dia_cursado; }
+            set { dia_cursado = value; }
+        }
+
+        public string Nombre_carrera
+        {
+            get { return nombre_carrera; }
+            set { nombre_carrera = value; }
+        }
+        #endregion
+
 
         #region Constructores
         public Materia()
         { }
-        public Materia(int Cod, string Nom, int Año, string Dia_Clases, string Carrera)
+        public Materia(int Codigo, string Nombre, int Año, string Dia_Clases, string Carrera)
         {
-            Codigo = Cod;
-            Nombre = Nom;
-            Año_Cursado = Año;
-            Dia_Cursado = Dia_Clases;
-            Nombre_Carrera = Carrera;
+            codigo = Codigo;
+            nombre = Nombre;
+            año_cursado = Año;
+            dia_cursado = Dia_Clases;
+            nombre_carrera = Carrera;
 
         }
         #endregion

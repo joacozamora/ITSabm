@@ -27,22 +27,18 @@ namespace Entidades
             get { return NombreApellido; }
             set { NombreApellido = value; }
         }
-
-<<<<<<< HEAD
         public DateTime fecha_nac
         {
             get { return Fecha_Nac;}
             set { Fecha_Nac = value;}
         }
-=======
 
->>>>>>> a17495e2fe1f0992cc50e44c8d6b55a2da5fe98d
         #endregion
 
         #region Constructores
         public Alumno()
         { }
-        public Alumno(int Dni, string nomApellido, string fecha_Nac, string email, bool analitico)
+        public Alumno(int Dni, string nomApellido, DateTime fecha_Nac, string email, bool analitico)
         {
             DNI = Dni;
             NombreApellido = nomApellido;
