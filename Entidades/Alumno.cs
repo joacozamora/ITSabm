@@ -28,11 +28,15 @@ namespace Entidades
             set { NombreApellido = value; }
         }
 
+<<<<<<< HEAD
         public DateTime fecha_nac
         {
             get { return Fecha_Nac;}
             set { Fecha_Nac = value;}
         }
+=======
+
+>>>>>>> a17495e2fe1f0992cc50e44c8d6b55a2da5fe98d
         #endregion
 
         #region Constructores
