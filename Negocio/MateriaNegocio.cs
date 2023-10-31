@@ -1,4 +1,5 @@
 ﻿using Entidades;
+using Entidades.Materia;
 using Materia;
 using System.Data;
 
@@ -6,7 +7,7 @@ namespace Negocio
 {
     public class MateriaNegocio
     {
-        ListaMaterias objDatosMaterias = new ListaMaterias();
+        ListaMateria objDatosMaterias = new ListaMateria();
 
 
         public int abmMateria(string accion, Materia objMateria)
